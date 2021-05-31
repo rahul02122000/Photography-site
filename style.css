@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway');
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: #162635;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+    font-weight: 700;
+    color: maroon;
+    text-align: center;
+    /* vertical-align: center; */
+    text-decoration: underline;
+}
+
+p{
+    font-family: 'Raleway', serif;
+    color: #2c2c2c;
+    font-size: 140%;
+    line-height: 180%;
+    text-align: middle;
+    font-weight: 300;
+} 
+
+img{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://static.pexels.com/photos/248159/pexels-photo-248159.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0;
+
+}
+
+.intro.inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+h1 {
+    font-family: 'Playfair Display',serif;
+    font-size: 300%;
+    font-weight: 700;
+    color: white;
+    text-align: middle;
+    padding: 2%;
+    text-shadow: 0px 0px 250px #000;
+}
+
+.content p{
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', serif;
+    font-size: 150%;
+    line-height: 50%;
+    font-weight: 1000;
+    padding: 50px;
+}
+
+.inner{
+    max-width: 600px;
+    margin: auto;
+    font-size: 170%;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: underline;
+} */
+
+nav{
+    float: left;
+    padding: 5% 5% 0 0;
+    font-size: 15px;
+    height: 50px;
+}
+
+nav ul{
+    list-style: none;
+    float: left;
+}
+
+nav ul li{
+    font-family: 'Raleway',sans-serif;
+    font-size: 120%;
+}
+
+nav ul li a {
+    color : #FFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul,nav:active ul {
+    display: none;
+    left: 45px;
+    top: 60px;
+    padding: 8px 0;
+    left: 45px;
+    top: 60px;
+    width: 20%;
+    z-index: 1000;
+}
+
+nav li {
+    width: 100%;
+    padding: 8px 0 10px 7px;
+    margin: 0;
+}
+
+nav:hover ul{
+    display: block;
+    position: absolute;
+}
+
+#menu-icon {
+    width: 300px;
+    height: 26px;
+    display: inline-block;
+    margin: 5px 0 0 50px;
+}
+
+/------- End Nav -------/
+
+.left-col{
+    width: 60%;
+    float: left;
+    margin: 4% 0 4% 4%;
+}
+.sidebar {
+    width: 27%;
+    float: left;
+    margin: 4%;
+}
+
+.one-third-port {
+    width: 29.333333%;
+    padding: 2%;
+    float: left;
+    text-align: center;
+}
+
+.one-third-port img:hover {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    transform: scale(1.1);
+}
+
+.contact p {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.contact a {
+    color: red;
+    text-decoration: none;
+}
+
+.contact p{
+    color: navy;
+}
+
+.break {
+    display: none;
+}
+.clearfix {
+    clear: both;
+    height: 3%;
+}
+
+.parallax {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTf8b121kkTLZEeAUTrDloHCz1etcMS1CIknw&usqp=CAU) repeat fixed 100%;
+    opacity: .5;
+}
+
+.parallax-inner {
+    padding-top: 17%;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 270%;
+    margin: 1% 5% 7% 4%;
+}
+a:hover i{
+    transform: scale(2);
+}
+
+.fa-instagram{
+    color: #c01165;
+}
+
+.fa-youtube{
+    color: crimson;
+}
+
+.fa-twitter{
+    color: #0097e6;
+}
+
+.fa-facebook{
+    color: darkblue;
+}
+
+.fa-google-plus{
+    color: red;
+}
+
+.second p{
+    text-align: center;
+}
